@@ -6,6 +6,7 @@ FEEDS = {
     "France": ["https://www.lemonde.fr/rss/une.xml"],
     "Monde": ["http://feeds.bbci.co.uk/news/world/rss.xml"],
     "Cameroun": ["https://news.google.com/rss/search?q=Cameroun&hl=fr&gl=CM&ceid=CM:fr"],
+    "Technologie": ["https://news.google.com/rss/search?q=intelligence+artificielle&hl=fr&gl=FR&ceid=FR:fr"]
 }
 
 def fetch_headlines(urls, n=8):
