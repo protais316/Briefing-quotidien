@@ -1,3 +1,4 @@
 .env
 __pycache__/
 ideas_history.json
+videos_history.json
