@@ -12,10 +12,14 @@ def safe(title, func, *args):
 
 def build_briefing():
     today = datetime.date.today().strftime("%d/%m/%Y")
+    if datetime.date.today().weekday() in [3, 6]:
+        mode = "deepen"
+    else:
+        mode = "new"
     parts = [
         f"# Briefing du {today}",
         safe("Actualité", news_briefing),
-        safe("Idée de business", daily_idea, "new"),
+        safe("Idée de business", daily_idea, mode),
         safe("Vidéo du jour", pick_video),
     ]
     return "\n\n".join(parts)
