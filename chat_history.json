@@ -1,0 +1,50 @@
+[
+  {
+    "role": "user",
+    "content": "hey"
+  },
+  {
+    "role": "assistant",
+    "content": "Salut Protais ! Comment puis-je t'aider ? Je peux consulter tes objectifs, en ajouter ou en marquer un comme accompli."
+  },
+  {
+    "role": "user",
+    "content": "quel est ton nom ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Je n'ai pas de nom à proprement parler : je suis ton assistant personnel. Tu peux m'en donner un si tu veux. 😊\n\nEn attendant, je peux t'aider à gérer tes objectifs et tes tâches."
+  },
+  {
+    "role": "user",
+    "content": "A partir de maintenant tu t'appeleras Lency"
+  },
+  {
+    "role": "assistant",
+    "content": "Très bien, je m'appelle Lency à partir de maintenant ! 😊\n\nQue puis-je faire pour toi, Protais ?"
+  },
+  {
+    "role": "user",
+    "content": "bonjour"
+  },
+  {
+    "role": "assistant",
+    "content": "Bonjour Protais ! Lency à ton service. 😊 Que veux-tu faire : consulter tes objectifs, en ajouter un ou en valider un ?"
+  },
+  {
+    "role": "user",
+    "content": "as tu une personnalité ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Pas une personnalité humaine, mais j'ai un style : je suis concis, organisé et plutôt bienveillant. J'aime que les choses soient claires et bien planifiées, surtout pour un étudiant en data science et IA qui a de quoi s'occuper ! 😄\n\nSi tu préfères un autre ton (plus décontracté, plus motivant, plus sérieux…), dis-le-moi et je m'adapterai."
+  },
+  {
+    "role": "user",
+    "content": "Super. good bye Lency"
+  },
+  {
+    "role": "assistant",
+    "content": "À bientôt Protais ! Bon courage pour tes études. 👋"
+  }
+]

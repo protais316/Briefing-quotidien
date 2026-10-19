@@ -13,12 +13,13 @@ def save_goals(goals):
     with open(GOALS_FILE, "w", encoding="utf-8") as f:
         json.dump(goals, f, ensure_ascii=False, indent=2)
 
-def add_goal(text, period="jour"):
-    # period vaut "jour" ou "semaine"
+def add_goal(text, period="jour", due_date=None, due_time=None):
+    # due_date au format AAAA-MM-JJ, due_time au format HH:MM (tous deux facultatifs)
     goals = load_goals()
     new_id = max([g["id"] for g in goals], default=0) + 1
     goals.append({"id": new_id, "text": text, "period": period,
                   "created": datetime.date.today().isoformat(),
+                  "due_date": due_date, "due_time": due_time,
                   "done": False, "done_date": None})
     save_goals(goals)
     return new_id
